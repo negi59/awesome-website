@@ -1,0 +1,229 @@
+body {
+    background-color: #1F2937;
+    font-family: 'Hind Siliguri', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.top-bar {
+    background-color: #1F2937;
+    position: fixed;
+    display: flex;
+    gap: 40%;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 10;
+    height: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    margin-top: 0.5%;
+    margin-left: auto; 
+    font-weight: 900;
+    font-size: 24px;
+}
+.pages {
+    background-color: #1F2937;
+    display: flex;
+    margin-top: 0.5%;
+    margin-right: auto;
+    gap: 20px;
+}
+.pages button {
+    color: #8b8b8b;
+    border: none;
+    background: none;
+    transition-duration: 0.4s;
+}
+.pages button:hover {
+    background-color: rgb(16, 23, 37);
+    border: 5px solid #1F2937;
+    margin: auto;
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5%;
+    margin-top: 140px;
+    color: #f9faf8;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.container1 .subcontainer1 { 
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    margin-left: auto;
+    width: 30%;
+}
+.container1 p,.container1 h3 {
+  margin: 0px;
+  padding: 0px
+}
+.container1 h3 {
+    font-size: 48px;
+    line-height: 48px;
+}
+.container1 .subcontainer1 p {
+    font-size: 18px;
+    color:#e5e7eb
+}
+.container1 button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.container1 button:hover {
+    background-color: #0e59d1;
+}
+.container1 .subcontainer2 {
+    background-color: #c4c4c473;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 200px;
+}
+.container2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    height: 400px;
+    overflow: hidden;
+}
+.container2 h1{
+    color: #1F2937;
+}
+.container2 .subcontainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+.container2 .wrap{
+    width: 150px;
+    color: #747474;
+    font-weight: 500;
+}
+.container2 img {
+    background-color: #c4c4c400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    height: 400px;
+}
+.container3 .quote {
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+    font-weight: 100;
+    line-height: 40px;
+}
+.container3 .thor {
+    float: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+}
+.container3 .subcontainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container4 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    height: 250px;
+}
+.container4 .subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+}
+.container4 .wrap {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 150px;
+    color: #f9faf8;
+}
+.container4 p,.container4 h3{
+    margin: 0px;
+    padding: 0px
+}
+.container4 button{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.container4 button:hover {
+    background-color: #0e59d1
+}
+footer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+footer .subcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    color: #f9faf8;
+    font-weight: 400;
+    font-size: 15px;
+}
