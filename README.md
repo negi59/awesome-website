@@ -1,4 +1,5 @@
 # awesome-website
-oding project landing page 
+odin project
+landing page 
 
 just a an html project for precourse training
